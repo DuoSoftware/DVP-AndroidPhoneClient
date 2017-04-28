@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:grid="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/choice_grid"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:layout_centerHorizontal="true"
+    android:padding="0dp"
+    grid:alignmentMode="alignBounds"
+    grid:columnCount="3"
+    grid:rowOrderPreserved="false"
+    grid:useDefaultMargins="false">
+
+    <Button
+        android:id="@+id/grid_one"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        grid:layout_rowWeight="1"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal"
+        android:gravity="center"
+        android:background="@drawable/lines"
+        android:text="1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/grid_two"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        grid:layout_rowWeight="1"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal"
+        android:gravity="center"
+        android:background="@drawable/lines"
+        android:text="2"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/grid_three"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        grid:layout_rowWeight="1"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal"
+        android:gravity="center"
+        android:background="@drawable/lines"
+        android:text="3"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/grid_four"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        grid:layout_rowWeight="1"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal"
+        android:gravity="center"
+        android:background="@drawable/lines"
+        android:text="4"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/grid_five"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        grid:layout_rowWeight="1"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal"
+        android:gravity="center"
+        android:background="@drawable/lines"
+        android:text="5"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/grid_six"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        grid:layout_rowWeight="1"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal"
+        android:gravity="center"
+        android:background="@drawable/lines"
+        android:text="6"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/grid_seven"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        grid:layout_rowWeight="1"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal"
+        android:gravity="center"
+        android:background="@drawable/lines"
+        android:text="7"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/grid_eight"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        grid:layout_rowWeight="1"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal"
+        android:gravity="center"
+        android:background="@drawable/lines"
+        android:text="8"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
+    <Button
+        android:id="@+id/grid_nine"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        grid:layout_rowWeight="1"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal"
+        android:gravity="center"
+        android:background="@drawable/lines"
+        android:text="9"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
+    <Button
+        android:id="@+id/grid_star"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        grid:layout_rowWeight="1"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal"
+        android:gravity="center"
+        android:background="@drawable/linetwo"
+        android:text="*"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/grid_zero"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        grid:layout_rowWeight="1"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/linetwo"
+        android:text="0"
+        android:textSize="30sp" />
+    <Button
+        android:id="@+id/grid_hash"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        grid:layout_rowWeight="1"
+        grid:layout_columnWeight="1"
+        grid:layout_gravity="fill_horizontal"
+        android:gravity="center"
+        android:background="@drawable/linetwo"
+        android:text="#"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
+</android.support.v7.widget.GridLayout>

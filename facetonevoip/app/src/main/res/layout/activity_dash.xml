@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="apps.veery.com.facetonevoip.DashActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@android:color/white">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <EditText
+                android:id="@+id/dash_et_no"
+                android:textColorHint="@color/colorAccent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:textColor="@android:color/white"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:textSize="30sp"
+                android:cursorVisible="false"/>
+            <ImageButton
+                android:id="@+id/dash_ib_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:paddingRight="@dimen/activity_horizontal_margin"/>
+
+        </LinearLayout>
+        <include layout="@layout/grid"/>
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/dash_btn_call"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|center"
+        android:src="@drawable/ic_call_white_24dp"
+        android:background="@drawable/boxboarder"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        />
+</android.support.design.widget.CoordinatorLayout>

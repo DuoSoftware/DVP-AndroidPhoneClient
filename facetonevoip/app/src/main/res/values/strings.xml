@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Facetone Voip</string>
+
+    <!--for setting  -->
+    <string name="MEDIA_G722">MEDIA_G722</string>
+    <string name="MEDIA_G729">MEDIA_G729</string>
+    <string name="MEDIA_AMR">MEDIA_AMR</string>
+    <string name="MEDIA_AMRWB">MEDIA_AMRWB</string>
+    <string name="MEDIA_GSM">MEDIA_GSM</string>
+    <string name="MEDIA_PCMA">MEDIA_PCMA</string>
+    <string name="MEDIA_PCMU">MEDIA_PCMU</string>
+    <string name="MEDIA_SPEEX">MEDIA_SPEEX</string>
+    <string name="MEDIA_SPEEXWB">MEDIA_SPEEXWB</string>
+    <string name="MEDIA_ILBC">MEDIA_ILBC</string>
+    <string name="MEDIA_ISACWB">MEDIA_ISACWB</string>
+    <string name="MEDIA_ISACSWB">MEDIA_ISACSWB</string>
+    <string name="MEDIA_OPUS">MEDIA_OPUS</string>
+    <string name="MEDIA_DTMF">MEDIA_DTMF</string>
+
+    <string name="string_audiofeature">Audio Feature</string>
+    <string name="MEDIA_VAD">MEDIA_VAD</string>
+    <string name="MEDIA_AEC">MEDIA_AEC</string>
+    <string name="MEDIA_ANS">MEDIA_ANS</string>
+    <string name="MEDIA_AGC">MEDIA_AGC</string>
+    <string name="MEDIA_CNG">MEDIA_CNG</string>
+
+
+    <string name="string_video">Video</string>
+    <string name="MEDIA_H263">MEDIA_H263</string>
+    <string name="MEDIA_H26398">MEDIA_H26398</string>
+    <string name="MEDIA_H264">MEDIA_H264</string>
+    <string name="MEDIA_VP8">MEDIA_VP8</string>
+
+    <string name="str_resolution">Resolution</string>
+    <string name="str_pracktitle">Enable PRACK</string>
+
+    <!--  Strings for possible PreferenceActivity Back/Next buttons -->
+    <string name="back_button_label">Back</string>
+    <string name="next_button_label">Next</string>
+
+    <!-- Optional button to Skip a PreferenceActivity [CHAR LIMIT=20] -->
+    <string name="skip_button_label">Skip</string>
+
+</resources>
